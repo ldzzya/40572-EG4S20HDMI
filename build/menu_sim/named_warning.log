@@ -1,0 +1,8 @@
+PASS live fit: same image rebuilt, music continues, edits in flight coalesced
+PASS named warning: numeric1 audio preserved; manual/autoplay skip all warning and nonnumeric files
+PASS named warning: original warning WAV, independent buffer, exact normal music resume without reread
+PASS emergency: interrupt LOAD_START, LOAD_WAIT and pending fade; saved frame and PCM survive without reload
+PASS named warning: locked startup and warning-only card exit silent/invalid
+PASS named warning: missing assets and invalid FAT never fall back to numeric/raw alarm files
+PASS complete named warning media policy
+C:\Users\87842\Documents\Codex\2026-10-01\new-chat\outputs\hx4s20_multimedia_v12_720p_mem_fix\tests\tb_named_warning.sv:142: $finish called at 57139520000 (1ps)

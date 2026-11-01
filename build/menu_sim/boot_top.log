@@ -1,0 +1,12 @@
+frame           1468834000 active=0 page=1
+frame           2846610000 active=0 page=1
+frame           4224386000 active=0 page=1
+frame           5602163000 active=0 page=1
+frame           6979939000 active=0 page=1
+frame           8357716000 active=2 page=0
+frame           9735492000 active=2 page=0
+frame          11113268000 active=0 page=0
+frame          12491045000 active=0 page=0
+frame          13868821000 active=0 page=1
+PASS actual top: automatic boot play, normal buffer 0, emergency buffer 2, live home menu and emergency return, key lock and resume; reads=858029
+C:\Users\87842\Documents\Codex\2026-10-01\new-chat\outputs\hx4s20_multimedia_v12_720p_mem_fix\tests\tb_boot_top.sv:49: $finish called at 13868821148 (1ps)

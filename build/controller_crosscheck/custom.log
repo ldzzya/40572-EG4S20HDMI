@@ -1,0 +1,62 @@
+# do {C:\Users\87842\Documents\Codex\2026-10-01\new-chat\outputs\hx4s20_multimedia_v12_720p_mem_fix\build\controller_crosscheck\custom.do} 
+# Modifying modelsim.ini
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module frame_read_write
+# -- Compiling module frame_fifo_write
+# -- Compiling module frame_fifo_read
+# -- Compiling module rgb24_pack
+# -- Compiling module rgb24_unpack
+# -- Compiling module frame_presenter
+# -- Compiling module reset_release
+# -- Compiling module wfifo_32_32_512
+# -- Compiling module fifo_cross_domain_addr_process_al_wfifo_32_32_512
+# -- Compiling module ram_infer_wfifo_32_32_512
+# -- Compiling module rfifo_32_32_512
+# -- Compiling module fifo_cross_domain_addr_process_al_rfifo_32_32_512
+# -- Compiling module ram_infer_rfifo_32_32_512
+# -- Compiling module sdram_stream_align
+# -- Compiling module tb_align_controller
+# -- Compiling module sdram_model
+# 
+# Top level modules:
+# 	frame_presenter
+# 	tb_align_controller
+# vsim -suppress 3016,3017,3722 work.tb_align_controller work.glbl 
+# Loading sv_std.std
+# Loading work.tb_align_controller
+# Loading work.sdram_stream_align
+# Loading work.wfifo_32_32_512
+# Loading work.fifo_cross_domain_addr_process_al_wfifo_32_32_512
+# Loading work.ram_infer_wfifo_32_32_512
+# Loading work.sdr_as_ram
+# Loading work.EG_PHY_PAD
+# Loading work.EG_LOGIC_IDDR
+# Loading work.EG_LOGIC_IDDRx2
+# Loading work.EG_LOGIC_ODDR
+# Loading work.EG_LOGIC_ODDRx2
+# Loading work.EG_PHY_CONFIG
+# Loading work.AL_MAP_LUT2
+# Loading work.AL_MAP_SEQ
+# Loading work.AL_MAP_LUT4
+# Loading work.AL_MAP_LUT3
+# Loading work.EG_PHY_MSLICE
+# Loading work.dff_slice
+# Loading work.pfb_dffctrl
+# Loading work.dff_slice_half
+# Loading work.EG_PHY_LSLICE
+# Loading work.AL_MAP_LUT1
+# Loading work.AL_MAP_LUT5
+# Loading work.sdram_model
+# Loading work.frame_read_write
+# Loading work.reset_release
+# Loading work.rgb24_pack
+# Loading work.rgb24_unpack
+# Loading work.frame_fifo_write
+# Loading work.rfifo_32_32_512
+# Loading work.fifo_cross_domain_addr_process_al_rfifo_32_32_512
+# Loading work.ram_infer_rfifo_32_32_512
+# Loading work.frame_fifo_read
+# Loading work.glbl
+# PASS calibration + actual controller + FIFO: 16 native RGB24 lines, 3840 concurrent words, refresh=         20, vertical flip and optimized unpacker
+# ** Note: $finish    : C:/Users/87842/Documents/Codex/2026-10-01/new-chat/outputs/hx4s20_multimedia_v12_720p_mem_fix/build/controller_crosscheck/tb_custom.sv(98)
+#    Time: 605171112 ps  Iteration: 1  Instance: /tb_align_controller

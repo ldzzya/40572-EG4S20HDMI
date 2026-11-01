@@ -1,0 +1,4 @@
+C:\Users\87842\Documents\Codex\2026-10-01\new-chat\outputs\hx4s20_multimedia_v12_720p_mem_fix\src\user_source\hdl_source\top_tf_hdmi_audio.v:339: warning: Port 16 (read_addr_2) of module frame_read_write expects 21 bit(s), given 53.
+C:\Users\87842\Documents\Codex\2026-10-01\new-chat\outputs\hx4s20_multimedia_v12_720p_mem_fix\src\user_source\hdl_source\top_tf_hdmi_audio.v:339:        : Pruning 32 high bits of the expression.
+C:\Users\87842\Documents\Codex\2026-10-01\new-chat\outputs\hx4s20_multimedia_v12_720p_mem_fix\src\user_source\hdl_source\top_tf_hdmi_audio.v:339: warning: Port 32 (write_addr_2) of module frame_read_write expects 21 bit(s), given 53.
+C:\Users\87842\Documents\Codex\2026-10-01\new-chat\outputs\hx4s20_multimedia_v12_720p_mem_fix\src\user_source\hdl_source\top_tf_hdmi_audio.v:339:        : Pruning 32 high bits of the expression.

@@ -1,0 +1,2 @@
+PASS 720p audio: 4800 samples per 7425000 video clocks, exactly 48kHz output
+C:\Users\87842\Documents\Codex\2026-10-01\new-chat\outputs\hx4s20_multimedia_v12_720p\tests\tb_audio_720.sv:15: $finish called at 74265550000 (1ps)

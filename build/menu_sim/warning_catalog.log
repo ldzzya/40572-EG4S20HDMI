@@ -1,0 +1,6 @@
+PASS warning catalogue 0: numeric-only, duplicate handling, independent fifth slot, mixed case and fragmented root
+PASS warning catalogue 1: numeric-only, duplicate handling, independent fifth slot, mixed case and fragmented root
+PASS warning catalogue 2: numeric-only, duplicate handling, independent fifth slot, mixed case and fragmented root
+PASS warning catalogue 3: numeric-only, duplicate handling, independent fifth slot, mixed case and fragmented root
+PASS warning catalogue 4: numeric-only, duplicate handling, independent fifth slot, mixed case and fragmented root
+C:\Users\87842\Documents\Codex\2026-10-01\new-chat\outputs\hx4s20_multimedia_v12_720p_mem_fix\tests\tb_warning_catalog.sv:62: $finish called at 322120000 (1ps)

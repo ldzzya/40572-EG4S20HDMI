@@ -1,0 +1,8 @@
+{
+  "boot_playback_verified_by": "constant source plus actual top simulation",
+  "home_buffer_selector_removed": true,
+  "checkpoint_registers_present": true,
+  "no_unexpected_signal_warnings": true,
+  "setup_and_hold_TNS_zero": true,
+  "exceptions": "existing encrypted SDRAM IP and separately checked readmemh font ROM warnings"
+}

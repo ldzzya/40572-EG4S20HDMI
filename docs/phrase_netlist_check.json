@@ -1,0 +1,5 @@
+{
+  "passed": true,
+  "output": "PASS phrase ROM: all 16384 Chinese/English character positions match the synthesized packed RAM contents\n",
+  "gate_sha256": "6a881e42043e85c07f813039d6791162a825a11f53018fb849ad0f1ff793238d"
+}

@@ -1,0 +1,203 @@
+{
+  "baseline": "V12 only",
+  "resolution": [
+    1280,
+    720
+  ],
+  "refresh_hz": 60,
+  "audio_hz": 48000,
+  "picture_rgb_bits": 24,
+  "timing_ns": {
+    "SWNS": 0.111,
+    "STNS": 0.0,
+    "HWNS": 0.022,
+    "HTNS": 0.0
+  },
+  "resources": {
+    "lut": {
+      "used": 17181,
+      "available": 19600
+    },
+    "reg": {
+      "used": 10316,
+      "available": 19600
+    },
+    "bram": {
+      "used": 57,
+      "available": 64
+    },
+    "bram32k": {
+      "used": 15,
+      "available": 16
+    },
+    "dsp": {
+      "used": 22,
+      "available": 29
+    }
+  },
+  "fresh_checks": {
+    "alignment_checks/wide.log": {
+      "sha256": "3e9bb196b54adf134d06ef8a2af29d09089725cf603e7587647f9fc9d0cae1b4",
+      "passed": [
+        "PASS wide alignment: WS=          0 RS=          0 corruption=          2 status=e detail=09; reserved probe, inverted second pattern and live traffic",
+        "PASS wide alignment: WS=          0 RS=          0 corruption=          0 status=0 detail=22; reserved probe, inverted second pattern and live traffic",
+        "PASS wide alignment: WS=          0 RS=          1 corruption=          0 status=0 detail=23; reserved probe, inverted second pattern and live traffic",
+        "PASS wide alignment: WS=          0 RS=         -1 corruption=          0 status=0 detail=21; reserved probe, inverted second pattern and live traffic",
+        "PASS wide alignment: WS=          0 RS=          2 corruption=          0 status=0 detail=24; reserved probe, inverted second pattern and live traffic",
+        "PASS wide alignment: WS=          0 RS=         -2 corruption=          0 status=0 detail=20; reserved probe, inverted second pattern and live traffic",
+        "PASS wide alignment: WS=          1 RS=          0 corruption=          0 status=0 detail=32; reserved probe, inverted second pattern and live traffic",
+        "PASS wide alignment: WS=          1 RS=          1 corruption=          0 status=0 detail=33; reserved probe, inverted second pattern and live traffic",
+        "PASS wide alignment: WS=          1 RS=         -1 corruption=          0 status=0 detail=31; reserved probe, inverted second pattern and live traffic",
+        "PASS wide alignment: WS=          1 RS=          2 corruption=          0 status=0 detail=34; reserved probe, inverted second pattern and live traffic",
+        "PASS wide alignment: WS=          1 RS=         -2 corruption=          0 status=0 detail=30; reserved probe, inverted second pattern and live traffic",
+        "PASS wide alignment: WS=         -1 RS=          0 corruption=          0 status=0 detail=12; reserved probe, inverted second pattern and live traffic",
+        "PASS wide alignment: WS=         -1 RS=          1 corruption=          0 status=0 detail=13; reserved probe, inverted second pattern and live traffic",
+        "PASS wide alignment: WS=         -1 RS=         -1 corruption=          0 status=0 detail=11; reserved probe, inverted second pattern and live traffic",
+        "PASS wide alignment: WS=         -1 RS=          2 corruption=          0 status=0 detail=14; reserved probe, inverted second pattern and live traffic",
+        "PASS wide alignment: WS=         -1 RS=         -2 corruption=          0 status=0 detail=10; reserved probe, inverted second pattern and live traffic",
+        "PASS wide alignment: WS=          2 RS=          0 corruption=          0 status=0 detail=42; reserved probe, inverted second pattern and live traffic",
+        "PASS wide alignment: WS=          2 RS=          1 corruption=          0 status=0 detail=43; reserved probe, inverted second pattern and live traffic",
+        "PASS wide alignment: WS=          2 RS=         -1 corruption=          0 status=0 detail=41; reserved probe, inverted second pattern and live traffic",
+        "PASS wide alignment: WS=          2 RS=          2 corruption=          0 status=0 detail=44; reserved probe, inverted second pattern and live traffic",
+        "PASS wide alignment: WS=          2 RS=         -2 corruption=          0 status=0 detail=40; reserved probe, inverted second pattern and live traffic",
+        "PASS wide alignment: WS=         -2 RS=          0 corruption=          0 status=0 detail=02; reserved probe, inverted second pattern and live traffic",
+        "PASS wide alignment: WS=         -2 RS=          1 corruption=          0 status=0 detail=03; reserved probe, inverted second pattern and live traffic",
+        "PASS wide alignment: WS=          0 RS=          0 corruption=          1 status=f detail=80; reserved probe, inverted second pattern and live traffic",
+        "PASS wide alignment: WS=          0 RS=          0 corruption=          3 status=f detail=80; reserved probe, inverted second pattern and live traffic",
+        "PASS wide alignment: WS=         -2 RS=         -1 corruption=          0 status=0 detail=01; reserved probe, inverted second pattern and live traffic",
+        "PASS wide alignment: WS=         -2 RS=          2 corruption=          0 status=0 detail=04; reserved probe, inverted second pattern and live traffic",
+        "PASS wide alignment: WS=         -2 RS=         -2 corruption=          0 status=0 detail=00; reserved probe, inverted second pattern and live traffic",
+        "PASS wide calibration: 25 timing profiles, mismatches, unknown bus and timeout, safe fallback"
+      ]
+    },
+    "mapped_memory/custom.log": {
+      "sha256": "652ddc608d8a25be0e0567efd06b837c75084ff592bf6108c209e161ecb603a0",
+      "passed": [
+        "# PASS aligned full-project memory cone: exact RGB read and concurrent vertical-flip writes"
+      ]
+    },
+    "mapped_memory/micron.log": {
+      "sha256": "80d5e1fd29b023824ac965a554010f7edaeb3422947b76e9f97cf259a746cd80",
+      "passed": [
+        "# PASS vendor full-project memory cone: exact RGB read and concurrent vertical-flip writes"
+      ]
+    },
+    "menu_sim/boot_top.log": {
+      "sha256": "9d5dd0293fe0e3e5a0502300ef7a8661bb52b5d43d1ac8ff58ff72e76fe41367",
+      "passed": [
+        "PASS actual top: automatic boot play, normal buffer 0, emergency buffer 2, live home menu and emergency return, key lock and resume; reads=858029"
+      ]
+    },
+    "menu_sim/warning_catalog.log": {
+      "sha256": "aef7d46706d0f9a5f6d5ce46ac866ed8eb1a5c2129b0559e5639f24d011f1c10",
+      "passed": [
+        "PASS warning catalogue 0: numeric-only, duplicate handling, independent fifth slot, mixed case and fragmented root",
+        "PASS warning catalogue 1: numeric-only, duplicate handling, independent fifth slot, mixed case and fragmented root",
+        "PASS warning catalogue 2: numeric-only, duplicate handling, independent fifth slot, mixed case and fragmented root",
+        "PASS warning catalogue 3: numeric-only, duplicate handling, independent fifth slot, mixed case and fragmented root",
+        "PASS warning catalogue 4: numeric-only, duplicate handling, independent fifth slot, mixed case and fragmented root"
+      ]
+    },
+    "menu_sim/named_warning.log": {
+      "sha256": "b6551e88f45c8e80961ba55a9b7f3a21bb76cf804577eecf4923f14f0fc91c52",
+      "passed": [
+        "PASS live fit: same image rebuilt, music continues, edits in flight coalesced",
+        "PASS named warning: numeric1 audio preserved; manual/autoplay skip all warning and nonnumeric files",
+        "PASS named warning: original warning WAV, independent buffer, exact normal music resume without reread",
+        "PASS emergency: interrupt LOAD_START, LOAD_WAIT and pending fade; saved frame and PCM survive without reload",
+        "PASS named warning: locked startup and warning-only card exit silent/invalid",
+        "PASS named warning: missing assets and invalid FAT never fall back to numeric/raw alarm files",
+        "PASS complete named warning media policy"
+      ]
+    }
+  },
+  "inherited_checks": {
+    "audio_720": {
+      "status": "inherited; all test dependencies hash-identical",
+      "original_project": "D:\\anlogic\\hx4s20_multimedia_v12_720p",
+      "log": "build/inherited_checks/audio_720.log",
+      "log_sha256": "1ffd590a2df949be943b0a8feccfd88c2ab32675a17e0f627610b119aa47f932",
+      "unchanged_dependencies": {
+        "src/user_source/hdl_source/wav_pcm_48k.v": "8acf8ff144a37c6346b8a1163cccb8890637b55712ab7f487e56ac100c9ea2e4",
+        "tests/tb_audio_720.sv": "09ba11dcc70fa3c675708b1f9743fe6fd87ff5a32d1008c3c03e20371ff34065"
+      }
+    },
+    "clocks_720": {
+      "status": "inherited; all test dependencies hash-identical",
+      "original_project": "D:\\anlogic\\hx4s20_multimedia_v12_720p",
+      "log": "build/inherited_checks/clocks_720.log",
+      "log_sha256": "9750746833863ebc4cd7f9a4c8d53fc1e5818b89a388376faddda7f06fddbd51",
+      "unchanged_dependencies": {
+        "src/user_source/hdl_source/IP/sys_pll.v": "e4dd01bf5c46126f077d5322fdb5d2f6309a2152a272f3b4be2c7e3ec49f8fac",
+        "src/user_source/hdl_source/IP/video_pll.v": "a5125f00fc4f3aad724ceb36bd876e11e152f8de0a3eeeb69540b1fb81d3f385",
+        "tests/tb_clocks_720.sv": "c7a20ea7e16b2e01afae1906cc5582ff645cc4c412bf234b5ecd1ddd34dd5c67",
+        "tests/run_physical_720.py": "b4ed593438a28154f35a6dd1004163998c331714b2a9e164fa35e66481ae855c"
+      }
+    },
+    "upscale": {
+      "status": "inherited: all module and test source hashes identical; not rerun",
+      "log": "build/inherited_checks/upscale.log",
+      "log_sha256": "1f64bc79408c86517a526ca8e855aec6fcf67bb373c3fb96bb2cc2926e0c1692",
+      "unchanged_dependencies": {
+        "src/user_source/hdl_source/SD/bmp_read.v": "120aba053794c3d47e898cc289968141704d755bb666c09290a5f0dc20241909",
+        "src/user_source/hdl_source/SD/bmp_bilinear.v": "adbf64bb845ed67df5d29ce25cb8d81ee6a025031a14e6d2ee55fd09f0e54462",
+        "src/user_source/hdl_source/SD/rgb_row_ram.v": "94f32b3066327806dfea184681335c66869bab8c8e476058807c6cebee35e7b6",
+        "src/user_source/hdl_source/SD/scan_address_hint.v": "6fe8d0e67842bbf33a65368a73f451f0b9f6eff3e9c35f1be37805feba5f6f9d",
+        "tests/tb_scaler_720.sv": "4dcc89b900e917f7a3eaa2a42ca8e918b4958e3317cf678cbe6cf3bfc36ea267",
+        "tests/run_scaler_720.py": "bef0dd92101542a83793d715df096bbd33c6a06c63b3e28ca5c7993ad1d10d1a"
+      }
+    },
+    "downscale": {
+      "status": "inherited: all module and test source hashes identical; not rerun",
+      "log": "build/inherited_checks/downscale.log",
+      "log_sha256": "89c62bacce785d8435643a777737738596edf06d8cedd4e22bec40dd7d80984d",
+      "unchanged_dependencies": {
+        "src/user_source/hdl_source/SD/bmp_read.v": "120aba053794c3d47e898cc289968141704d755bb666c09290a5f0dc20241909",
+        "src/user_source/hdl_source/SD/bmp_bilinear.v": "adbf64bb845ed67df5d29ce25cb8d81ee6a025031a14e6d2ee55fd09f0e54462",
+        "src/user_source/hdl_source/SD/rgb_row_ram.v": "94f32b3066327806dfea184681335c66869bab8c8e476058807c6cebee35e7b6",
+        "src/user_source/hdl_source/SD/scan_address_hint.v": "6fe8d0e67842bbf33a65368a73f451f0b9f6eff3e9c35f1be37805feba5f6f9d",
+        "tests/tb_scaler_720.sv": "4dcc89b900e917f7a3eaa2a42ca8e918b4958e3317cf678cbe6cf3bfc36ea267",
+        "tests/run_scaler_720.py": "bef0dd92101542a83793d715df096bbd33c6a06c63b3e28ca5c7993ad1d10d1a"
+      }
+    },
+    "portrait_fit": {
+      "status": "inherited: all module and test source hashes identical; not rerun",
+      "log": "build/inherited_checks/portrait_fit.log",
+      "log_sha256": "a86ce3f1c8b244cf2bc07bc9e8a5b2e3a24094b33f4935c420f26b2cbca87b8e",
+      "unchanged_dependencies": {
+        "src/user_source/hdl_source/SD/bmp_read.v": "120aba053794c3d47e898cc289968141704d755bb666c09290a5f0dc20241909",
+        "src/user_source/hdl_source/SD/bmp_bilinear.v": "adbf64bb845ed67df5d29ce25cb8d81ee6a025031a14e6d2ee55fd09f0e54462",
+        "src/user_source/hdl_source/SD/rgb_row_ram.v": "94f32b3066327806dfea184681335c66869bab8c8e476058807c6cebee35e7b6",
+        "src/user_source/hdl_source/SD/scan_address_hint.v": "6fe8d0e67842bbf33a65368a73f451f0b9f6eff3e9c35f1be37805feba5f6f9d",
+        "tests/tb_scaler_720.sv": "4dcc89b900e917f7a3eaa2a42ca8e918b4958e3317cf678cbe6cf3bfc36ea267",
+        "tests/run_scaler_720.py": "bef0dd92101542a83793d715df096bbd33c6a06c63b3e28ca5c7993ad1d10d1a"
+      }
+    },
+    "single_pixel": {
+      "status": "inherited: all module and test source hashes identical; not rerun",
+      "log": "build/inherited_checks/single_pixel.log",
+      "log_sha256": "869eb33afeed1b490f9f945e99ce36d21d7050f1b7a48cf8f5666f73843a8d52",
+      "unchanged_dependencies": {
+        "src/user_source/hdl_source/SD/bmp_read.v": "120aba053794c3d47e898cc289968141704d755bb666c09290a5f0dc20241909",
+        "src/user_source/hdl_source/SD/bmp_bilinear.v": "adbf64bb845ed67df5d29ce25cb8d81ee6a025031a14e6d2ee55fd09f0e54462",
+        "src/user_source/hdl_source/SD/rgb_row_ram.v": "94f32b3066327806dfea184681335c66869bab8c8e476058807c6cebee35e7b6",
+        "src/user_source/hdl_source/SD/scan_address_hint.v": "6fe8d0e67842bbf33a65368a73f451f0b9f6eff3e9c35f1be37805feba5f6f9d",
+        "tests/tb_scaler_720.sv": "4dcc89b900e917f7a3eaa2a42ca8e918b4958e3317cf678cbe6cf3bfc36ea267",
+        "tests/run_scaler_720.py": "bef0dd92101542a83793d715df096bbd33c6a06c63b3e28ca5c7993ad1d10d1a"
+      }
+    }
+  },
+  "bit": {
+    "path": "build/multimedia_v12_720p.bit",
+    "sha256": "e4c54773073a48ef88f0a54f98e816863a2a5ca29950cd91e0916aa54cb9406c",
+    "bytes": 727400
+  },
+  "gate_sha256": "6a881e42043e85c07f813039d6791162a825a11f53018fb849ad0f1ff793238d",
+  "hardware_download_performed": false,
+  "limitations": [
+    "Physical colour/seams and F recovery await board test; original F has not been reproduced exactly.",
+    "Mapped simulations are functional, not SDF/electrical verification.",
+    "Whole-word calibration handles shifts from -2 through +2 clocks; it cannot repair unstable analog sampling.",
+    "The complete full-size emergency system was not rerun end-to-end; current control/media regressions and unchanged decoder/scaler hashes are recorded separately."
+  ]
+}

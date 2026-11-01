@@ -1,0 +1,51 @@
+Reading D:/fpga/quar/modelsim_ase/tcl/vsim/pref.tcl 
+
+# 10.1d
+
+# do {C:\Users\87842\Documents\Codex\2026-10-01\new-chat\outputs\hx4s20_multimedia_v12_720p_mem_fix\build\mapped_memory\full_memory.do} 
+# Modifying modelsim.ini
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module full_memory_probe
+# 
+# Top level modules:
+# 	full_memory_probe
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module tb_full_memory
+# -- Compiling module EG_PHY_SDRAM_2M_32
+# 
+# Top level modules:
+# 	tb_full_memory
+# 	EG_PHY_SDRAM_2M_32
+# vsim -suppress 3016,3017,3722 work.tb_full_memory work.glbl 
+# Loading sv_std.std
+# Loading work.tb_full_memory
+# Loading work.full_memory_probe
+# Loading work.EG_PHY_LSLICE
+# Loading work.dff_slice
+# Loading work.pfb_dffctrl
+# Loading work.dff_slice_half
+# Loading work.EG_PHY_MSLICE
+# Loading work.AL_MAP_LUT2
+# Loading work.AL_MAP_SEQ
+# Loading work.AL_MAP_LUT3
+# Loading work.AL_MAP_LUT5
+# Loading work.AL_MAP_LUT4
+# Loading work.AL_MAP_LUT1
+# Loading work.EG_PHY_BRAM
+# Loading work.EG_PHY_SDRAM_2M_32
+# Loading work.sdram_model
+# Loading work.EG_PHY_PAD
+# Loading work.EG_LOGIC_IDDR
+# Loading work.EG_LOGIC_IDDRx2
+# Loading work.EG_LOGIC_ODDR
+# Loading work.EG_LOGIC_ODDRx2
+# Loading work.glbl
+# ** Warning: Design size of 30 instances exceeds ModelSim ALTERA recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim Altera version. Expect performance to be adversely affected.
+# INIT ready
+# PROGRESS clocks=       5000 pixel=       2128
+# PROGRESS clocks=      10000 pixel=       2560
+# PASS aligned full-project memory cone: exact RGB read and concurrent vertical-flip writes
+# ** Note: $finish    : C:/Users/87842/Documents/Codex/2026-10-01/new-chat/outputs/hx4s20_multimedia_v12_720p_mem_fix/build/mapped_memory/tb_full_memory.sv(199)
+#    Time: 140161476 ps  Iteration: 1  Instance: /tb_full_memory

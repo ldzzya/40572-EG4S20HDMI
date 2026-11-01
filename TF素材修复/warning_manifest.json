@@ -1,0 +1,61 @@
+{
+  "background": "C:\\Users\\87842\\Documents\\Codex\\2026-10-01\\new-chat\\work\\color_probe\\assets\\warning.bmp",
+  "png": "C:\\Users\\87842\\Documents\\Codex\\2026-10-01\\new-chat\\work\\color_probe\\assets\\warning.png",
+  "output": "C:\\Users\\87842\\Documents\\Codex\\2026-10-01\\new-chat\\outputs\\hx4s20_multimedia_v12_720p_color_fix\\TF素材修复\\warning.bmp",
+  "format": "OVL9 marked BI_RGB32; offset64; B,G,R,RGBA2222",
+  "size": [
+    1280,
+    720
+  ],
+  "max_banner_height": 80,
+  "original_background_size": [
+    1280,
+    720
+  ],
+  "source_crop": [
+    160,
+    126,
+    1120,
+    596
+  ],
+  "trim_outer_black_border": true,
+  "mask_cache": [
+    640,
+    40
+  ],
+  "mask_scale": 2,
+  "strip_top": 16,
+  "output_mode": "1280x720 60Hz",
+  "background_rect": [
+    0,
+    0,
+    1280,
+    720
+  ],
+  "overlay_rect": [
+    132,
+    16,
+    1148,
+    96
+  ],
+  "placement": "inside BMP content at top centre; background is never moved to make room",
+  "alpha_weights": [
+    0,
+    0.25,
+    0.75,
+    1
+  ],
+  "palette_levels": [
+    0,
+    85,
+    170,
+    255
+  ],
+  "fit": "stretch",
+  "visible_overlay_pixels": 26988,
+  "copy_to_tf": [
+    "warning.bmp",
+    "your existing warning.wav"
+  ],
+  "previews_are_not_board_inputs": true
+}

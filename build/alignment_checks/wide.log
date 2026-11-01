@@ -1,0 +1,30 @@
+PASS wide alignment: WS=          0 RS=          0 corruption=          2 status=e detail=09; reserved probe, inverted second pattern and live traffic
+PASS wide alignment: WS=          0 RS=          0 corruption=          0 status=0 detail=22; reserved probe, inverted second pattern and live traffic
+PASS wide alignment: WS=          0 RS=          1 corruption=          0 status=0 detail=23; reserved probe, inverted second pattern and live traffic
+PASS wide alignment: WS=          0 RS=         -1 corruption=          0 status=0 detail=21; reserved probe, inverted second pattern and live traffic
+PASS wide alignment: WS=          0 RS=          2 corruption=          0 status=0 detail=24; reserved probe, inverted second pattern and live traffic
+PASS wide alignment: WS=          0 RS=         -2 corruption=          0 status=0 detail=20; reserved probe, inverted second pattern and live traffic
+PASS wide alignment: WS=          1 RS=          0 corruption=          0 status=0 detail=32; reserved probe, inverted second pattern and live traffic
+PASS wide alignment: WS=          1 RS=          1 corruption=          0 status=0 detail=33; reserved probe, inverted second pattern and live traffic
+PASS wide alignment: WS=          1 RS=         -1 corruption=          0 status=0 detail=31; reserved probe, inverted second pattern and live traffic
+PASS wide alignment: WS=          1 RS=          2 corruption=          0 status=0 detail=34; reserved probe, inverted second pattern and live traffic
+PASS wide alignment: WS=          1 RS=         -2 corruption=          0 status=0 detail=30; reserved probe, inverted second pattern and live traffic
+PASS wide alignment: WS=         -1 RS=          0 corruption=          0 status=0 detail=12; reserved probe, inverted second pattern and live traffic
+PASS wide alignment: WS=         -1 RS=          1 corruption=          0 status=0 detail=13; reserved probe, inverted second pattern and live traffic
+PASS wide alignment: WS=         -1 RS=         -1 corruption=          0 status=0 detail=11; reserved probe, inverted second pattern and live traffic
+PASS wide alignment: WS=         -1 RS=          2 corruption=          0 status=0 detail=14; reserved probe, inverted second pattern and live traffic
+PASS wide alignment: WS=         -1 RS=         -2 corruption=          0 status=0 detail=10; reserved probe, inverted second pattern and live traffic
+PASS wide alignment: WS=          2 RS=          0 corruption=          0 status=0 detail=42; reserved probe, inverted second pattern and live traffic
+PASS wide alignment: WS=          2 RS=          1 corruption=          0 status=0 detail=43; reserved probe, inverted second pattern and live traffic
+PASS wide alignment: WS=          2 RS=         -1 corruption=          0 status=0 detail=41; reserved probe, inverted second pattern and live traffic
+PASS wide alignment: WS=          2 RS=          2 corruption=          0 status=0 detail=44; reserved probe, inverted second pattern and live traffic
+PASS wide alignment: WS=          2 RS=         -2 corruption=          0 status=0 detail=40; reserved probe, inverted second pattern and live traffic
+PASS wide alignment: WS=         -2 RS=          0 corruption=          0 status=0 detail=02; reserved probe, inverted second pattern and live traffic
+PASS wide alignment: WS=         -2 RS=          1 corruption=          0 status=0 detail=03; reserved probe, inverted second pattern and live traffic
+PASS wide alignment: WS=          0 RS=          0 corruption=          1 status=f detail=80; reserved probe, inverted second pattern and live traffic
+PASS wide alignment: WS=          0 RS=          0 corruption=          3 status=f detail=80; reserved probe, inverted second pattern and live traffic
+PASS wide alignment: WS=         -2 RS=         -1 corruption=          0 status=0 detail=01; reserved probe, inverted second pattern and live traffic
+PASS wide alignment: WS=         -2 RS=          2 corruption=          0 status=0 detail=04; reserved probe, inverted second pattern and live traffic
+PASS wide alignment: WS=         -2 RS=         -2 corruption=          0 status=0 detail=00; reserved probe, inverted second pattern and live traffic
+PASS wide calibration: 25 timing profiles, mismatches, unknown bus and timeout, safe fallback
+C:\Users\87842\Documents\Codex\2026-10-01\new-chat\outputs\hx4s20_multimedia_v12_720p_mem_fix\tests\tb_sdram_align_wide.sv:76: $finish called at 242020000 (1ps)
